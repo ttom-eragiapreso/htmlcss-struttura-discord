@@ -24,16 +24,19 @@ header {
   align-items: center;
 }
 
-
-.menu ul {
+ul{
   list-style: none;
+}
+.menu ul {
   display: flex;
+}
 
+ul li a{
+  text-decoration: none;
+  color: white;
 }
 
 .menu ul li a{
-  text-decoration: none;
-  color: white;
   padding: 0 15px;
 }
 
@@ -120,6 +123,7 @@ span:first-child{
   align-items: center;
   height: 100%;
   font-size: 1.5rem;
+  padding-bottom: 20px;
 }
 
 .container-img-left.bottom .info {
@@ -138,4 +142,55 @@ span:first-child{
 footer {
   background-color: #23272a;
   color: white;
+  padding: 20px 0;
+}
+
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container.footer-menu{
+  width: 60%;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.language-selection{
+  display: flex;
+  flex-direction: column;
+}
+
+.language-selection h4{
+  margin-bottom: 10px;
+}
+
+.language-selection span:first-of-type{
+  margin-bottom: 10px;
+}
+
+footer li:first-child a{
+  color: purple;
+}
+
+footer li:first-child{
+  margin-bottom: 10px;
+}
+
+.sub-footer{
+  background-color: #23272a;
+  height: 250px;
+}
+
+.footer-1{
+  width: 60%;
+  font-size: 1.5rem;
+  border-top: 2px solid grey;
+}
+
+.container.footer-1{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 25px 0;
 }
